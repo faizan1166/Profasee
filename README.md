@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+# Profasee App
+[![JavaScript](https://img.shields.io/badge/javascript-%2320232a.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![HTML](https://img.shields.io/badge/html-%2320232a.svg?style=for-the-badge&logo=html5&logoColor=%23E34F26)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![CSS](https://img.shields.io/badge/css-%2320232a.svg?style=for-the-badge&logo=css3&logoColor=%231572B6)](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repository contains the Profasee App, a React.js application that showcases interactive charts and visualizations for ad revenue and profit/loss data. The app uses the ApexCharts library to display data fetched from an external API, and it allows users to select date ranges to view different time periods' data.
 
-## Available Scripts
+# Features
+- Interactive charts and visualizations for ad revenue and profit/loss data.
+- Datepicker to select custom date ranges for data visualization.
+- Comparison of data between the current year and the previous year.
+- Real-time data fetching from an external API (https://dev-api2.profasee.com/reports/test-data).
+- Styling using Tailwind CSS for a responsive and modern UI.
 
-In the project directory, you can run:
+# Getting Started
+To run the Profasee App locally, follow these steps:
 
-### `npm start`
+1. Clone this repository to your local machine using:
+  
+  ```bash
+   git clone https://github.com/IPH-Technologies-Pvt-Ltd/Profasee-React-Js.git
+```
+2. Navigate to the project directory:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+ ```bash
+   cd Profasee-React-Js
+```
+3. Install the required dependencies using npm:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+    ```bash
+     npm install
+   ```
+4. Start the development server:
 
-### `npm test`
+   ```bash
+   npm start
+   ```
+5. Open your web browser and visit http://localhost:3000 to see the app in action.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Usage:
+- Upon launching the app, you will be presented with various interactive charts displaying ad revenue and profit/loss data.
+- Use the datepicker to select custom date ranges and see how the data changes accordingly.
+- The charts compare data between the current year and the previous year for meaningful insights.
 
-### `npm run build`
+# Technologies Used:
+- React.js
+- ApexCharts
+- Tailwind CSS
+- Day.js
+- Moment.js
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Contributions
+Contributions to the Profasee App are welcome! If you find any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# License
+This project is licensed under the MIT License.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<img src="https://github.com/IPH-Technologies-Pvt-Ltd/Profasee/blob/80aab37558f78c8ab6d4628d90c1a07e83da5eb5/profasee.gif" 
+     width="500" 
+     height="300" />
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Enjoy exploring the Profasee App! If you have any questions or need further assistance, please don't hesitate to contact us. Happy charting!
